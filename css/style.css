@@ -1,0 +1,73 @@
+.fa {
+    padding: 20px;
+    font-size: 36px;
+    width: 72px;
+    text-align: center;
+    text-decoration: none;
+      }
+.carousel-caption{
+  padding-bottom: 48px;
+  background-color:#000d1785;
+}
+.navbar-nav{
+  font-size: 20px;
+}
+.dropdown-item:hover{
+background-color: #000d1785;
+}
+.phone{
+  color:white;
+  font-weight: 600;
+}
+.mail{
+  color:white;
+  font-weight: 600;
+}
+.navbar-nav .nav-item{
+  padding-right:15px;
+  padding-left:15px;
+}
+.fa-whatsapp{
+  border-radius: 37px;
+}
+    /* .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  body{min-height:200vh;}
+  .nav-link{
+    color:#012E49;
+  }
+  .navbar-dark{
+    transition:500ms ease;
+    background:#084298c7;
+  }
+  .navbar-dark.scrolled{
+    background:#012E49;
+  }
+  .container #header{
+    display: none;
+}
+
+/* @media screen and (min-width: 768px) {
+    .container #header {
+        clear: both;
+        display: block;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+    }
+} */
+.mobile {
+  display: none;
+}
+.rounded-circle{
+  transition: transform .2s;
+}
+.rounded-circle: hover{
+  height: 200;
+}
